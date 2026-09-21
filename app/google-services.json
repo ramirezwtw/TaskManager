@@ -1,0 +1,29 @@
+          {
+  "project_info": {
+    "project_number": "1044187515367",
+    "project_id": "taskmanager-379da",
+    "storage_bucket": "taskmanager-379da.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044187515367:android:0f2a16955958c9b49d1542",
+        "android_client_info": {
+          "package_name": "com.example.firebaseroomyarquitecturamvvm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6n5xHfxCnGb1uDf1Vd7snpO1tZC-Or2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
