@@ -3,7 +3,7 @@
 Aplicación Android desarrollada con Jetpack Compose, Firebase y Room, siguiendo la arquitectura MVVM con Clean Architecture (Domain/Data/UI).
 
 ## Integrantes
-- [Tu Nombre/Equipo]
+- Juan Martinez Ramirez
 
 ## Tecnologías Implementadas
 - **Kotlin & Jetpack Compose**: Interfaz de usuario declarativa.
