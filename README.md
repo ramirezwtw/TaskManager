@@ -47,7 +47,7 @@ graph TD
 5.  Habilitar **Cloud Firestore** y aplicar las reglas de seguridad provistas en `firestore.rules`.
 6.  Sincronizar Gradle y ejecutar en un dispositivo con Google Play Services.
 
-##Pruebas realizadas
+## Pruebas realizadas
 Se realizaron pruebas de las funcionalidades principales de la aplicación:
 
 Código	Caso de prueba
@@ -97,7 +97,7 @@ Capturas
 <img width="1355" height="391" alt="image" src="https://github.com/user-attachments/assets/dc110980-2ee6-403a-91af-e79ed1b1bfbd" />
 
 
-##Alcance
+## Alcance
 El proyecto implementa las siguientes funcionalidades principales:
 
 •Autenticación: Acceso seguro mediante Firebase Authentication.
