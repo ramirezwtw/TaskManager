@@ -66,9 +66,4 @@ graph TD
 ## Errores Conocidos
 - No se han detectado errores funcionales durante las pruebas de flujo.
 
-## Capturas de Pantalla
-*(Sugerencia: Agrega capturas de Login, Registro, Lista de Tareas y Borradores aquí)*
-![Lista de Tareas](https://via.placeholder.com/200x400?text=TaskList) ![Borradores](https://via.placeholder.com/200x400?text=Drafts)
 
-## Reglas de Seguridad (Firestore)
-Ver el archivo [firestore.rules](firestore.rules) incluido en la raíz del proyecto. Estas reglas garantizan que solo el dueño del documento pueda leer, editar o borrar sus registros.
