@@ -48,19 +48,23 @@ graph TD
 6.  Sincronizar Gradle y ejecutar en un dispositivo con Google Play Services.
 
 ## Pruebas realizadas
+
 Se realizaron pruebas de las funcionalidades principales de la aplicación:
 
-Código	Caso de prueba
-P01	Registro con datos válidos
-P02	Registro con correo existente
-P03	Inicio de sesión con contraseña incorrecta
-P04	Cerrar y abrir la aplicación con sesión activa
-P05	Cerrar sesión y utilizar el botón Atrás
-P06	Crear, consultar, editar y eliminar una tarea
-P07	Iniciar sesión con un segundo usuario
-P08	Guardar un borrador y reiniciar la aplicación
-P09	Publicar un borrador con conexión
-P10	Intentar publicar un borrador cuando Firebase falla
+| Código | Caso de prueba                                      |
+| ------ | --------------------------------------------------- |
+| P01    | Registro con datos válidos                          |
+| P02    | Registro con correo existente                       |
+| P03    | Inicio de sesión con contraseña incorrecta          |
+| P04    | Cerrar y abrir la aplicación con sesión activa      |
+| P05    | Cerrar sesión y utilizar el botón Atrás             |
+| P06    | Crear, consultar, editar y eliminar una tarea       |
+| P07    | Iniciar sesión con un segundo usuario               |
+| P08    | Guardar un borrador y reiniciar la aplicación       |
+| P09    | Publicar un borrador con conexión                   |
+| P10    | Intentar publicar un borrador cuando Firebase falla |
+
+Las pruebas permiten verificar la autenticación, el CRUD de tareas, el aislamiento de información entre usuarios, la persistencia local mediante Room y el manejo de errores durante la publicación de borradores.
 
 ## Estructura de Paquetes
 - `data`: local (Room), remote (Firestore models), repository, mapper.
